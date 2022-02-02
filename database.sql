@@ -29,7 +29,7 @@ CREATE TABLE `bookfood` (
   `email` varchar(45) NOT NULL,
   `packagename` varchar(45) NOT NULL,
   `place` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `bookfood` */
 
@@ -52,7 +52,7 @@ CREATE TABLE `bookpackage` (
   `totalcost` int NOT NULL,
   `email` varchar(45) NOT NULL,
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `bookpackage` */
 
@@ -74,7 +74,7 @@ CREATE TABLE `bookroom` (
   `email` varchar(45) NOT NULL,
   `packagename` varchar(45) NOT NULL,
   `place` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `bookroom` */
 
@@ -96,7 +96,7 @@ CREATE TABLE `booktransport` (
   `email` varchar(45) NOT NULL,
   `packagename` varchar(45) NOT NULL,
   `place` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `booktransport` */
 
@@ -112,7 +112,7 @@ DROP TABLE IF EXISTS `discount`;
 CREATE TABLE `discount` (
   `packagename` varchar(45) NOT NULL,
   `discount` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `discount` */
 
@@ -129,7 +129,7 @@ CREATE TABLE `food` (
   `foodtype` varchar(45) NOT NULL,
   `foodname` varchar(45) NOT NULL,
   `foodcost` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `food` */
 
@@ -145,7 +145,7 @@ DROP TABLE IF EXISTS `hotel`;
 
 CREATE TABLE `hotel` (
   `hotelName` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `hotel` */
 
@@ -165,7 +165,7 @@ CREATE TABLE `package` (
   `cost` varchar(45) NOT NULL,
   `days` varchar(45) NOT NULL,
   KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `package` */
 
@@ -185,7 +185,7 @@ CREATE TABLE `payment` (
   `cardName` varchar(45) NOT NULL,
   `cardNumber` varchar(45) NOT NULL,
   `cvv` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `payment` */
 
@@ -203,7 +203,7 @@ CREATE TABLE `register` (
   `email` varchar(45) NOT NULL,
   `password` varchar(45) NOT NULL,
   `mobile` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `register` */
 
@@ -222,7 +222,7 @@ CREATE TABLE `room` (
   `roomType` varchar(45) NOT NULL,
   `roomSize` varchar(45) NOT NULL,
   `roomCost` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `room` */
 
@@ -239,7 +239,7 @@ CREATE TABLE `transport` (
   `vehicleType` varchar(45) NOT NULL,
   `vehicleName` varchar(45) NOT NULL,
   `vehicleCost` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 /*Data for the table `transport` */
 
